@@ -1,3 +1,94 @@
+/* RESET */
+html {
+  font-size: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* COMMON */
 body {
-  background-color: aqua;
+  color: white;
+}
+
+h1,
+h2,
+h4,
+h6 {
+  text-transform: uppercase;
+}
+
+.ms-container {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* HEADER */
+header {
+  height: 80px;
+  line-height: 80px;
+  background-color: #2c3e50;
+}
+
+.header-title h1 {
+  font-size: 1.5rem;
+  line-height: 80px;
+}
+
+.header-menu li {
+  display: inline-block;
+}
+
+.header-menu li a {
+  text-transform: uppercase;
+  color: white;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  text-align: center;
+  background-color: #1abc9c;
+}
+
+/* PORTFOLIO */
+.portfolio {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* ABOUT */
+.about .container-fluid {
+  background-color: #1abc9c;
+}
+
+.ms-container .about-text {
+  text-align: initial;
+}
+
+/* CONTACT ME */
+.contact {
+  color: #2c3e50;
+}
+/* FOOTER */
+footer {
+  background-color: #3a546d;
+  text-align: center;
+}
+
+.page-bottom {
+  background-color: #2c3e50;
+
+  /* test */
+  height: 70px;
 }
